@@ -7,17 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/index-style.css" />
   <link rel="stylesheet" href="assets/style.css" />
   <title>The Weather Dashboard</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>The Weather Dashboard</h1>
     <img src="images/header-image.png" alt="Cloud-and-sun">
   </header>
-  <nav></nav>
-  <main></main>
+  <nav>
+    <ul>
+      <li id="Home-button">
+        <a href="index.html">Home
+          <img src="images/home-icon.png" alt="Home" href>
+        </a>
+      </li>
+      <li>
+        <a href="fiveday.html">Five Day Forecast</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Current Weather</h1>
+    <input type="search" name="City" id="City" placeholder="Type in the city">
+    <input type="search" name="State" id="State" placeholder="Type in State">
+    <input type="button" value="search">
+  </main>
 
 
 

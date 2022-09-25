@@ -1,6 +1,9 @@
 *{
     font-family: 'Lato', sans-serif;
 }
+body{
+    display: flex;
+}
 header {
     top: 0;
     display: flex;
@@ -12,6 +15,7 @@ header {
     align-items: center;
     color: white;
     font: weight bolder;
+    z-index: 1;
 }
 header img {
     height: 60%;
@@ -25,7 +29,6 @@ nav {
     margin-right: 0;
     width: 20%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 nav ul{
